@@ -150,3 +150,18 @@ Brand-Reputation-Analysis/
 ## 🙏 Acknowledgements
 
 This project was developed during a research internship focused on Natural Language Processing and Brand Reputation Analysis. The work demonstrates the practical application of AI techniques for analyzing social media content and extracting meaningful insights from unstructured textual data.
+
+---
+
+## 📖 Citation
+
+If you use this repository for academic or research purposes, please cite it appropriately or reference this repository.
+
+```bibtex
+@misc{brand_reputation_analysis,
+  title={Brand Reputation Analysis using Transformer-Based NLP},
+  author={Vidhya Harini Vijayarajan Sangeetha},
+  year={2026},
+  note={Research Internship Project},
+  url={https://github.com/vidhyaharini0/Brand-Reputation-Analysis}
+}
