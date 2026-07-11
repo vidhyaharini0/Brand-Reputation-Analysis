@@ -54,28 +54,40 @@ The analytical workflow consists of the following stages:
 ## 🔄 Research Workflow
 
 ```text
-Twitter Dataset
-        │
-        ▼
-Data Cleaning & Preprocessing
-        │
-        ▼
-Text Normalization
-        │
-        ▼
-Transformer-based NLP
-        │
-        ▼
-Sentiment Analysis
-        │
-        ▼
-Emotion Analysis
-        │
-        ▼
-Data Visualization
-        │
-        ▼
-Brand Reputation Insights
+                 ┌──────────────────────────┐
+                 │ Twitter Sentiment Dataset │
+                 └──────────────┬───────────┘
+                                │
+                                ▼
+                 ┌──────────────────────────┐
+                 │ Data Cleaning            │
+                 │ & Preprocessing          │
+                 └──────────────┬───────────┘
+                                │
+                                ▼
+                 ┌──────────────────────────┐
+                 │ Text Normalization       │
+                 └──────────────┬───────────┘
+                                │
+                                ▼
+                 ┌──────────────────────────┐
+                 │ Transformer-based NLP    │
+                 └──────────────┬───────────┘
+                                │
+                 ▼
+      ┌──────────────────┐   ┌──────────────────┐
+      │ Sentiment        │   │ Emotion          │
+      │ Classification   │   │ Analysis         │
+      └─────────┬────────┘   └─────────┬────────┘
+                └─────────────┬─────────┘
+                              ▼
+                 ┌──────────────────────────┐
+                 │ Visualization            │
+                 └──────────────┬───────────┘
+                                ▼
+                 ┌──────────────────────────┐
+                 │ Brand Reputation Insights│
+                 └──────────────────────────┘
 ```
 ---
 
