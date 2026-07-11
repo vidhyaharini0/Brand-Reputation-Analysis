@@ -14,7 +14,7 @@
 
 This project presents an AI-driven approach to **brand reputation analysis** using Natural Language Processing (NLP) techniques applied to large-scale Twitter data. The study investigates how sentiment and emotional trends extracted from social media can be used to understand public perception of brands and generate actionable business insights.
 
-The project was developed during a research internship and demonstrates the practical application of transformer-based language models, sentiment analysis, emotion detection, and interactive data visualization.
+This repository presents the implementation of an AI-driven brand reputation analysis framework developed during a research internship. The project demonstrates the practical application of transformer-based Natural Language Processing techniques for sentiment analysis, emotion detection, and social media analytics using large-scale Twitter data.
 
 ---
 
@@ -53,38 +53,39 @@ The analytical workflow consists of the following stages:
 
 ## 🔄 Research Workflow
 
+```text
 Twitter Dataset
         │
         ▼
-Data Cleaning
+Data Cleaning & Preprocessing
         │
         ▼
-Text Preprocessing
+Text Normalization
         │
         ▼
 Transformer-based NLP
         │
         ▼
-Sentiment Classification
+Sentiment Analysis
         │
         ▼
 Emotion Analysis
         │
         ▼
-Visualization
+Data Visualization
         │
         ▼
 Brand Reputation Insights
-
+```
 ---
 
 ## 📂 Dataset
 
 The experiments use the **Twitter Sentiment Dataset (3 Million Labelled Rows)** publicly available on Kaggle.
 
-Dataset Link:
+Dataset Source:
 
-https://www.kaggle.com/datasets/prkhrawsthi/twitter-sentiment-dataset-3-million-labelled-rows
+[Twitter Sentiment Dataset (3 Million Labelled Rows)](https://www.kaggle.com/datasets/prkhrawsthi/twitter-sentiment-dataset-3-million-labelled-rows)
 
 The dataset is not included in this repository due to its size and to respect the original distribution source.
 
@@ -105,23 +106,24 @@ The dataset is not included in this repository due to its size and to respect th
 
 ## 📁 Repository Structure
 
+```text
 Brand-Reputation-Analysis/
 
-dataset/
-    README.md
+├── dataset/
+│   └── README.md
 
-notebooks/
-    Brand_Reputation_Analysis.ipynb
+├── notebooks/
+│   └── Brand_Reputation_Analysis.ipynb
 
-outputs/
-    visualization_data.json
-    brand_reputation_results.pkl
+├── outputs/
+│   ├── visualization_data.json
+│   └── brand_reputation_results.pkl
 
-README.md
-requirements.txt
-LICENSE
-.gitignore
-
+├── README.md
+├── requirements.txt
+├── LICENSE
+└── .gitignore
+```
 ---
 
 ## 📊 Research Highlights
