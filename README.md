@@ -53,42 +53,32 @@ The analytical workflow consists of the following stages:
 
 ## 🔄 Research Workflow
 
-```text
-                 ┌──────────────────────────┐
-                 │ Twitter Sentiment Dataset │
-                 └──────────────┬───────────┘
-                                │
-                                ▼
-                 ┌──────────────────────────┐
-                 │ Data Cleaning            │
-                 │ & Preprocessing          │
-                 └──────────────┬───────────┘
-                                │
-                                ▼
-                 ┌──────────────────────────┐
-                 │ Text Normalization       │
-                 └──────────────┬───────────┘
-                                │
-                                ▼
-                 ┌──────────────────────────┐
-                 │ Transformer-based NLP    │
-                 └──────────────┬───────────┘
-                                │
-                 ▼
-      ┌──────────────────┐   ┌──────────────────┐
-      │ Sentiment        │   │ Emotion          │
-      │ Classification   │   │ Analysis         │
-      └─────────┬────────┘   └─────────┬────────┘
-                └─────────────┬─────────┘
-                              ▼
-                 ┌──────────────────────────┐
-                 │ Visualization            │
-                 └──────────────┬───────────┘
-                                ▼
-                 ┌──────────────────────────┐
-                 │ Brand Reputation Insights│
-                 └──────────────────────────┘
+```mermaid
+flowchart TD
+
+A[Twitter Dataset]
+
+B[Data Cleaning]
+
+C[Preprocessing]
+
+D[Transformer Model]
+
+E[Sentiment Analysis]
+
+F[Emotion Analysis]
+
+G[Visualization]
+
+H[Brand Reputation Insights]
+
+A --> B --> C --> D --> E
+D --> F
+E --> G
+F --> G
+G --> H
 ```
+
 ---
 
 ## 📂 Dataset
