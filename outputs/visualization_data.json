@@ -1,0 +1,170 @@
+{
+  "confusion_matrices": {
+    "Twitter-RoBERTa": [
+      [
+        1267,
+        509,
+        1441
+      ],
+      [
+        232,
+        1567,
+        1419
+      ],
+      [
+        306,
+        387,
+        2525
+      ]
+    ],
+    "DistilBERT": [
+      [
+        2333,
+        766,
+        118
+      ],
+      [
+        1187,
+        1888,
+        143
+      ],
+      [
+        2149,
+        894,
+        175
+      ]
+    ],
+    "Multilingual-BERT": [
+      [
+        1841,
+        984,
+        392
+      ],
+      [
+        816,
+        2098,
+        304
+      ],
+      [
+        1272,
+        1672,
+        274
+      ]
+    ]
+  },
+  "performance_metrics": [
+    {
+      "Model": "Twitter-RoBERTa",
+      "Accuracy": 0.5551641976587589,
+      "Precision": 0.60233972771783,
+      "Recall": 0.5551641976587589,
+      "F1-Score": 0.5477537459597633,
+      "ROC-AUC (Micro)": 0.7407342969486215,
+      "ROC-AUC (Macro)": 0.7641935976771471,
+      "Prediction Time (s)": 179.2469036579132,
+      "Samples/Second": 53.853092036794294
+    },
+    {
+      "Model": "DistilBERT",
+      "Accuracy": 0.45540246555474984,
+      "Precision": 0.4483515970860712,
+      "Recall": 0.45540246555474984,
+      "F1-Score": 0.39297486008194343,
+      "ROC-AUC (Micro)": 0.6091468459856191,
+      "ROC-AUC (Macro)": 0.6186738375610981,
+      "Prediction Time (s)": 98.01322984695435,
+      "Samples/Second": 98.48670444870515
+    },
+    {
+      "Model": "Multilingual-BERT",
+      "Accuracy": 0.4364446286128665,
+      "Precision": 0.3974439231453308,
+      "Recall": 0.4364446286128665,
+      "F1-Score": 0.3908022868667664,
+      "ROC-AUC (Micro)": 0.6281141403876002,
+      "ROC-AUC (Macro)": 0.6220039383162314,
+      "Prediction Time (s)": 95.9389660358429,
+      "Samples/Second": 100.61605204702362
+    }
+  ],
+  "brand_scores": [
+    {
+      "Brand": "Pepsi",
+      "NBR_Score": 80.0,
+      "Positive_Pct": 80.0,
+      "Negative_Pct": 0.0
+    },
+    {
+      "Brand": "Netflix",
+      "NBR_Score": 37.5,
+      "Positive_Pct": 50.0,
+      "Negative_Pct": 12.5
+    },
+    {
+      "Brand": "Apple",
+      "NBR_Score": 33.33333333333333,
+      "Positive_Pct": 41.66666666666667,
+      "Negative_Pct": 8.333333333333332
+    },
+    {
+      "Brand": "Google",
+      "NBR_Score": 29.629629629629626,
+      "Positive_Pct": 33.33333333333333,
+      "Negative_Pct": 3.7037037037037033
+    },
+    {
+      "Brand": "Amazon",
+      "NBR_Score": 17.647058823529413,
+      "Positive_Pct": 27.450980392156865,
+      "Negative_Pct": 9.803921568627452
+    },
+    {
+      "Brand": "Starbucks",
+      "NBR_Score": 11.11111111111111,
+      "Positive_Pct": 22.22222222222222,
+      "Negative_Pct": 11.11111111111111
+    },
+    {
+      "Brand": "Twitter",
+      "NBR_Score": 7.878787878787878,
+      "Positive_Pct": 30.303030303030305,
+      "Negative_Pct": 22.424242424242426
+    },
+    {
+      "Brand": "Microsoft",
+      "NBR_Score": 6.25,
+      "Positive_Pct": 25.0,
+      "Negative_Pct": 18.75
+    },
+    {
+      "Brand": "Facebook",
+      "NBR_Score": 0.0,
+      "Positive_Pct": 18.0,
+      "Negative_Pct": 18.0
+    },
+    {
+      "Brand": "Tesla",
+      "NBR_Score": -3.3333333333333335,
+      "Positive_Pct": 10.0,
+      "Negative_Pct": 13.333333333333334
+    },
+    {
+      "Brand": "Instagram",
+      "NBR_Score": -20.0,
+      "Positive_Pct": 0.0,
+      "Negative_Pct": 20.0
+    },
+    {
+      "Brand": "Nike",
+      "NBR_Score": -25.0,
+      "Positive_Pct": 0.0,
+      "Negative_Pct": 25.0
+    },
+    {
+      "Brand": "Coca",
+      "NBR_Score": -40.0,
+      "Positive_Pct": 0.0,
+      "Negative_Pct": 40.0
+    }
+  ]
+}
