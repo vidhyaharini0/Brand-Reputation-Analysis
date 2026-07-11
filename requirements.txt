@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+plotly
+nltk
+transformers
+torch
+scikit-learn
+wordcloud
+textblob
