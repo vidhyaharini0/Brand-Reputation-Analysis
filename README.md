@@ -10,11 +10,11 @@
 
 ---
 
-# 📖 Overview
+## 📖 Overview
 
-This project presents an AI-driven approach to **brand reputation analysis** using Natural Language Processing (NLP) techniques applied to large-scale Twitter data. The study investigates how sentiment and emotional trends extracted from social media can be used to understand public perception of brands and generate actionable business insights.
+This repository presents an AI-driven framework for **brand reputation analysis** using Natural Language Processing (NLP) techniques applied to large-scale Twitter data. The project investigates how sentiment and emotional trends extracted from social media can be leveraged to understand public perception of brands and generate actionable business insights.
 
-This repository presents the implementation of an AI-driven brand reputation analysis framework developed during a research internship. The project demonstrates the practical application of transformer-based Natural Language Processing techniques for sentiment analysis, emotion detection, and social media analytics using large-scale Twitter data.
+Developed during a research internship, the project demonstrates the practical application of Transformer-based language models, sentiment analysis, emotion detection, and interactive data visualization to support data-driven brand reputation assessment.
 
 ---
 
